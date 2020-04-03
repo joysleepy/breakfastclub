@@ -52,6 +52,7 @@ body div#container div#content #portada {
   background: #e9ecef;
   height: 500px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 body div#container div#content #portada figure {
   width: 100%;
@@ -68,8 +69,8 @@ body div#container div#content #portada #portadalbl {
 }
 body div#container div#content #menucards .menucard {
   display: inline-block;
-  height: 150px;
-  width: 45%;
+  height: 250px;
+  width: 250px;
 }
 body div#container div#content #menucards .menucard figure {
   width: 100%;
@@ -80,7 +81,15 @@ body div#container div#content #menucards .menucard figure img {
   width: 100%;
 }
 body div#container div#content #menucards .menucard figure h2 {
+  float: right;
+  position: relative;
+  z-index: 20;
   font-size: 1em;
+  background-color: #d5eaac;
+  margin-top: -40px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
 }
 body div#container div#footer {
   background-color: #c3e1c3;
