@@ -95,5 +95,20 @@ body div#container div#content #menucards .menucard h2 {
 body div#container div#footer {
   background-color: #c3e1c3;
 }
+@media (max-width: 575px) {
+  body div#container div#content #menucards .menucard {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  body div#container div#content #menucards .menucard {
+    width: 49%;
+  }
+}
+@media (min-width: 992px) {
+  body div#container div#content #menucards .menucard {
+    width: 24%;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

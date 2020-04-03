@@ -124,4 +124,39 @@ body{
             background-color: rgb(195, 225, 195);
         }
     }
+
+    // Media querys
+    @media (max-width: 575px) {
+        div#container{
+            div#content{
+                #menucards{
+                    .menucard{
+                        width: 100%; 
+                    }
+                } 
+            }
+        }
+    }
+    @media (min-width: 576px) {
+        div#container{
+            div#content{
+                #menucards{
+                    .menucard{
+                        width: 49%;
+                    }
+                } 
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        div#container{
+            div#content{
+                #menucards{
+                    .menucard{
+                        width: 24%;
+                    }
+                } 
+            }
+        }
+    }
 }
