@@ -1,0 +1,88 @@
+$light-gray: #e9ecef;
+$light-dark-typo: #848689;
+
+body{
+    margin: 0px;
+    color: $light-dark-typo;
+    
+    div.item{
+        background: lightblue;
+        padding: 10px;
+        //border: 1px solid red;
+    }
+
+    div#container{
+        display: grid;
+        grid-gap: 0px;
+        height: 100vh;
+        
+        /* Definimos un layout clasico de 3 filas y 1 columnas */
+        grid-template: 100px 1fr 50px / 100vw;
+
+        /* En esta clase veremos el concepto de Areas */
+        grid-template-areas:    "header" 
+                                "content" 
+                                "footer";
+
+        div#header{
+            grid-area: header;
+            background: rgb(245, 231, 231);
+            //color: white;
+            border: none !important;
+
+            figure{
+                //background-color:blue;
+                display: inline-block;
+                height: 100px;
+
+                img{
+                    display: inline-block;
+                    height: 100%;
+                    margin-right: 10px;
+                }
+                h1{
+                    display: inline-block;
+                    font-size: 1.5em;
+                }
+            }
+
+            nav{
+                //background-color: #FF0000;
+                display: inline-block;
+                text-align: right;
+                
+                ul{
+                    li{
+                        display: inline;
+                    }
+                }
+            }
+        }
+
+        div#content{
+            #portada{
+                background: $light-gray;
+                height: 500px;
+                border-radius: 5px;
+
+                figure{
+                    width: 100%;
+                    height: 400px;
+                    overflow: hidden;
+                    border-radius: 5px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                #portadalbl{
+                    text-align: right;
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        div#footer{
+            background-color: rgb(195, 225, 195);
+        }
+    }
+}

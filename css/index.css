@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  color: #848689;
+}
+body div.item {
+  background: lightblue;
+  padding: 10px;
+}
+body div#container {
+  display: grid;
+  grid-gap: 0px;
+  height: 100vh;
+  /* Definimos un layout clasico de 3 filas y 1 columnas */
+  grid-template: 100px 1fr 50px/100vw;
+  /* En esta clase veremos el concepto de Areas */
+  grid-template-areas: "header" "content" "footer";
+}
+body div#container div#header {
+  grid-area: header;
+  background: #f5e7e7;
+  border: none !important;
+}
+body div#container div#header figure {
+  display: inline-block;
+  height: 100px;
+}
+body div#container div#header figure img {
+  display: inline-block;
+  height: 100%;
+  margin-right: 10px;
+}
+body div#container div#header figure h1 {
+  display: inline-block;
+  font-size: 1.5em;
+}
+body div#container div#header nav {
+  display: inline-block;
+  text-align: right;
+}
+body div#container div#header nav ul li {
+  display: inline;
+}
+body div#container div#content #portada {
+  background: #e9ecef;
+  height: 500px;
+  border-radius: 5px;
+}
+body div#container div#content #portada figure {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+body div#container div#content #portada figure img {
+  width: 100%;
+}
+body div#container div#content #portada #portadalbl {
+  text-align: right;
+  padding-right: 10px;
+}
+body div#container div#footer {
+  background-color: #c3e1c3;
+}
+
+/*# sourceMappingURL=index.css.map */
