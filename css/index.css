@@ -3,7 +3,7 @@ body {
   color: #848689;
 }
 body div.item {
-  background: lightblue;
+  background: #d0edf7;
   padding: 10px;
 }
 body div#container {
@@ -65,6 +65,22 @@ body div#container div#content #portada figure img {
 body div#container div#content #portada #portadalbl {
   text-align: right;
   padding-right: 10px;
+}
+body div#container div#content #menucards .menucard {
+  display: inline-block;
+  height: 150px;
+  width: 45%;
+}
+body div#container div#content #menucards .menucard figure {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+body div#container div#content #menucards .menucard figure img {
+  width: 100%;
+}
+body div#container div#content #menucards .menucard figure h2 {
+  font-size: 1em;
 }
 body div#container div#footer {
   background-color: #c3e1c3;
