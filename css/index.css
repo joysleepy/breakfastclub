@@ -18,7 +18,8 @@ body div#container {
 body div#container div#header {
   grid-area: header;
   background: #f5e7e7;
-  border: none !important;
+  border: none;
+  border-bottom: 1px solid #848689;
 }
 body div#container div#header figure {
   display: inline-block;
@@ -26,7 +27,7 @@ body div#container div#header figure {
 }
 body div#container div#header figure img {
   display: inline-block;
-  height: 100%;
+  height: 90px;
   margin-right: 10px;
 }
 body div#container div#header figure h1 {
