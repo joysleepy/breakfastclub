@@ -93,27 +93,28 @@ body{
                 .menucard{
                     //background: yellow;
                     display: inline-block;
-                    height: 250px;
                     width: 250px;
-                    
+                    height: 160px;
+
                     figure{
                         width: 100%;
+                        height: 100%;
                         overflow: hidden;
                         border-radius: 5px;
                         img{
                             width:100%;
                         }
-                        h2{
-                            float: right;
-                            position: relative;
-                            z-index:20;
-                            font-size: 1em;
-                            background-color: rgb(213, 234, 172);
-                            margin-top: -40px;
-                            margin-right: 10px;
-                            padding: 5px;
-                            border-radius: 5px;
-                        }
+                    }
+                    h2{
+                        float: right;
+                        position: relative;
+                        z-index:20;
+                        font-size: 1em;
+                        background-color: rgb(213, 234, 172);
+                        margin-top: -50px;
+                        margin-right: 10px;
+                        padding: 5px;
+                        border-radius: 5px;
                     }
                 }
             }
