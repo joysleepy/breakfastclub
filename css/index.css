@@ -11,7 +11,7 @@ body div#container {
   grid-gap: 0px;
   height: 100vh;
   /* Definimos un layout clasico de 3 filas y 1 columnas */
-  grid-template: 100px 1fr 50px/100vw;
+  grid-template: 90px 1fr 50px/100vw;
   /* En esta clase veremos el concepto de Areas */
   grid-template-areas: "header" "content" "footer";
 }
@@ -27,16 +27,23 @@ body div#container div#header figure {
 }
 body div#container div#header figure img {
   display: inline-block;
-  height: 90px;
+  height: 80px;
   margin-right: 10px;
 }
 body div#container div#header figure h1 {
+  vertical-align: top;
+  margin-top: 30px;
   display: inline-block;
   font-size: 1.5em;
 }
 body div#container div#header nav {
+  vertical-align: top;
+  margin-top: 35px;
   display: inline-block;
   text-align: right;
+}
+body div#container div#header nav ul {
+  font-weight: lighter;
 }
 body div#container div#header nav ul li {
   display: inline;
